@@ -1,0 +1,75 @@
+.hero {
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1543352634-99a5d50ae78e");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.35)
+  );
+}
+
+.hero-content {
+  position: relative;
+  max-width: 700px;
+  padding: 0 60px;
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero-content h1 span {
+  color: #ff7a00;
+}
+
+.hero-content p {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.btn-primary {
+  background: #ff7a00;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  border: 2px solid white;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background: #e66c00;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+}

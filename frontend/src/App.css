@@ -1,0 +1,5 @@
+/* ✅ Keep App.css minimal. Main styling comes from styles/winnow.css */
+
+* {
+  box-sizing: border-box;
+}
