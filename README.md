@@ -14,14 +14,20 @@ git clone https://github.com/<your-username>/food-waste-intelligence.git
 cd food-waste-intelligence
 
 ✅ Step 2: Run Backend (Flask)
+
 cd backend
+
 pip install -r requirements.txt
+
 python main.py
 
 ✅ Step 3: Run Frontend (React)
 Open a new terminal:
+
 cd frontend
+
 npm install
+
 npm start
 
 
